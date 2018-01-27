@@ -18,7 +18,7 @@ The problem can be adressed using
 
 ## Detailled problem description
 
-The input is a 70 x 1059 CSV file where the first 68 columns are numbers between -1 and 1 describing the feature extracted from the wave files using the MARSYAS program.    
+The input is a 70 x 1059 CSV file of **48 Ko** where the first 68 columns are numbers between -1 and 1 describing the feature extracted from the wave files using the MARSYAS program. 
 The last two columns are number representing the latitude and longitute where the music orgines from.  
 
 Our objective will be to be able to predict the country of origine of a new song from its 68 MARSYAS feature.  
